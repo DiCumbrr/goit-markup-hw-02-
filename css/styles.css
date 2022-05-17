@@ -10,6 +10,8 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -22,6 +24,7 @@ body {
   color: var(--title-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -37,6 +40,8 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -50,24 +55,48 @@ body {
   color: var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 44px;
   line-height: 1.36;
-  text-transform: uppercase;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
   color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-/* features */
-.feature-list .title {
+/* work */
+.work-title {
   color: var(--title-text-color);
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+/* projects */
+.projects-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.projects-title {
+  color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /* button */
@@ -82,11 +111,12 @@ body {
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button:hover,
 .button:focus {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
 }
 
 .button-primary {
@@ -106,6 +136,17 @@ body {
   color: var(--primary-white-color);
   border-color: transparent;
 }
+
+/* features */
+.feature-title {
+  color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 /* contacts */
 .adress {
   background-color: var(--primary-grey-color);
@@ -117,9 +158,23 @@ body {
   font-weight: 500;
   line-height: 1.14;
   font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.contact-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .contact-title:hover,
+.contact-item:hover,
 .adress-title:hover {
   color: var(--accent-color);
 }
@@ -130,6 +185,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  text-decoration: none;
 }
 /* цвет основного текста: #212121;
 вторичный цвет текста:#757575 ;
