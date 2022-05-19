@@ -71,6 +71,7 @@ body {
   color: var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -178,7 +179,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(122, 88, 88, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
 }
